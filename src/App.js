@@ -4,8 +4,9 @@ import './App.css';
 import Home from './components/pages/Home';
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';
-import SignUp from './components/pages/SignUp';
+// import SignUp from './components/pages/SignUp';
 import Footer from './components/Footer';
+import ContactUs from "./components/pages/ContactUs";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/services' component={Services} />
           <Route path='/products' component={Products} />
-          <Route path='/sign-up' component={SignUp} />
+          <Route path='/contact-us' component={ContactUs} />
         </Switch>
         <Footer />
       </Router>

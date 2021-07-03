@@ -2,15 +2,16 @@ import React from 'react';
 import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
+import { constants } from '../common/constants';
 
 function Footer() {
     return (
         <div className='footer-container'>
             <section className='footer-subscription'>
                 <p className='footer-subscription-heading'>
-                    Join the Adventure newsletter to receive our best vacation deals
+                    {constants.FOOTER_CAPTION}
                 </p>
-                <p className='footer-subscription-text'>
+                {/*                 <p className='footer-subscription-text'>
                     You can unsubscribe at any time.
                 </p>
                 <div className='input-areas'>
@@ -23,6 +24,20 @@ function Footer() {
                         />
                         <Button buttonStyle='btn--outline'>Subscribe</Button>
                     </form>
+                </div> */}
+                <div className="hero-btns">
+                    <Button
+                        className='btns'
+                        buttonStyle='btn--primary'
+                        buttonSize='btn--large'>
+                        Contact Us
+                    </Button>
+                    <Button
+                        className='btns'
+                        buttonStyle='btn--primary'
+                        buttonSize='btn--large'>
+                        Book An Appointment
+                    </Button>
                 </div>
             </section>
             <div class='footer-links'>
