@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { InlineIcon } from '@iconify/react';
 
 function CardItem(props) {
 
@@ -14,7 +15,18 @@ function CardItem(props) {
                         </figure>
                         <div className="cards__item__info">
                             <h5 className="cards__item__text" >{
-                                Array.isArray(props.text) ? props.text.map(item => <ul>{item}</ul>) : props.text
+                                Array.isArray(props.text) ?
+                                    props.text.map(item =>
+                                        <>
+                                            <ul>
+                                                {
+                                                    item.icon ? <p><InlineIcon icon={item.icon} />{item.content}</p> : item.content
+                                                }
+                                            </ul>
+                                            <br></br>
+                                        </>
+                                    )
+                                    : props.text
                             }</h5>
                         </div>
                     </div>
