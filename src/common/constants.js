@@ -4,8 +4,8 @@ const constants = {
     FOOTER_CAPTION: "We are dedicated to provice you the best psychiatric consultation for your well being",
     LOCATION: {
         address: '1600 Amphitheatre Parkway, Mountain View, california.',
-        lat: 37.42216,
-        lng: -122.08427
+        lat: 9.75258256565687,
+        lng: 76.38993163016585
     },
     GOOGLE_API_KEY: ""
 }

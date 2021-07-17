@@ -12,12 +12,14 @@ function HeroSection() {
             <p>Book your session now!</p>
             <div className="hero-btns">
                 <Button
+                    linkTo='/contact-us'
                     className='btns'
                     buttonStyle='btn--outline'
                     buttonSize='btn--large'>
                     ABOUT US
                 </Button>
                 <Button
+                    linkTo='/contact-us'
                     className='btns'
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'>
