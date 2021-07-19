@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from './Button';
 import './Navbar.css';
 
 function Navbar() {
@@ -47,8 +46,8 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to="/products" className="nav-links" onClick={closeMobileMenu}>
-                                Products
+                            <Link to="/about-us" className="nav-links" onClick={closeMobileMenu}>
+                                About Us
                             </Link>
                         </li>
                         <li className='nav-item'>

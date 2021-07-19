@@ -33,7 +33,6 @@ function Footer() {
                     <div class='footer-link-items'>
                         <h2>Quick Links</h2>
                         <Link to='/services'>Services</Link>
-                        <Link to='/products'>Products</Link>
                         <Link to='/contact-us'>Contact Us</Link>
                         <Link to='/testimonials'>Testimonials</Link>
                         <Link to='/about-us'>About Us</Link>
