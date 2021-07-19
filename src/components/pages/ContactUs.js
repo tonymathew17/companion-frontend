@@ -16,17 +16,22 @@ export default function ContactUs() {
                             type="vertical"
                             src='images/img-telephone.jpg'
                             text={[
-                                { content: 'Dr. Chikku Mathew, MBBS MD(Psychiatrist), Consultant Psychiatrist', icon: accountIcon },
-                                { content: 'Monday - Friday 3.00PM to 5.00 PM', icon: clockTimeFiveOutline },
-                                { content: '6238483493', icon: phoneIcon }
+                                { content: 'Dr. Chikku Mathew, MBBS MD(Psychiatrist), Consultant Psychiatrist', icon: accountIcon, lineBreak: true },
+                                { content: 'Monday - Friday 3.00PM to 5.00 PM', icon: clockTimeFiveOutline, lineBreak: true },
+                                { content: '6238483493', icon: phoneIcon, lineBreak: false }
                             ]}
                             label='Contact Us'
                             path='/services'
                         />
                         <CardItem
                             type="vertical"
-                            src='images/img-9.jpg'
-                            text='Sad mood, Fatigue, Lack of Motivation, Hopelessness'
+                            src='images/img-locate-us.jpg'
+                            text={[
+                                { content: constants.LOCATION.address.line1, lineBreak: true },
+                                { content: constants.LOCATION.address.line2, lineBreak: true },
+                                { content: constants.LOCATION.address.line3, lineBreak: true },
+                                { content: constants.LOCATION.address.line4, lineBreak: false }
+                            ]}
                             label='Locate Us'
                             path='/services'
                         />

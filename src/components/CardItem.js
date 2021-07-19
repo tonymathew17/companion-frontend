@@ -18,12 +18,10 @@ function CardItem(props) {
                                 Array.isArray(props.text) ?
                                     props.text.map(item =>
                                         <>
-                                            <ul>
-                                                {
-                                                    item.icon ? <p><InlineIcon icon={item.icon} />{item.content}</p> : item.content
-                                                }
-                                            </ul>
-                                            <br></br>
+                                            {
+                                                item.icon ? <p><InlineIcon icon={item.icon} />{item.content}</p> : item.content
+                                            }
+                                            {item.lineBreak ? <br></br> : null}
                                         </>
                                     )
                                     : props.text
