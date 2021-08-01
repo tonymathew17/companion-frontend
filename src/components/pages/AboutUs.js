@@ -1,41 +1,29 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import './AboutUs.css';
 
 const useStyles = makeStyles({
     root: {
         width: '40rem',
-        minWidth: 275
-    },
-    bullet: {
-        display: 'inline-block',
-        margin: '0 2px',
-        transform: 'scale(0.8)',
-    },
-    title: {
-        fontFamily: 'Libre Baskerville',
-        fontSize: 17,
-    },
-    pos: {
-        marginBottom: 12,
-    },
+        margin: '10px'
+    }
 });
 
 export default function AboutUs() {
     const classes = useStyles();
-    const bull = <span className={classes.bullet}>•</span>;
 
     return (
         <div className="about-us-container">
+            {/* <Card className={classes.root}>
+                <img src='images/chikku.jpeg' loading='lazy'></img>
+            </Card> */}
             <Card className={classes.root}>
                 <CardContent>
                     <Typography className={classes.title} color="textSecondary" gutterBottom>
-                        A message from Dr Chikku Mathew
+                        A Message From Dr Chikku Mathew
                     </Typography>
                     <Typography className="about-us-content" variant="h5" component="h2">
                         I appreciate the time you have vested in knowing more about us. We are located at Vaikom, which can easily be approached from Kottayam or Ernakulam or Alleppey districts.
@@ -47,6 +35,25 @@ export default function AboutUs() {
                         We give you a very personal, non judgmental and
                         confidential space where you can bare your mind in full confidence. The Companion will be your mental health support system, will always be there to understand your strengths and challenges and will always proide care with a personalized touch.
 
+                    </Typography>
+                </CardContent>
+            </Card>
+            <Card className={classes.root}>
+                <CardContent>
+                    <Typography className={classes.title} color="textSecondary" gutterBottom>
+                        About Us
+                    </Typography>
+                    <Typography className="about-us-content" variant="h5" component="h2">
+                        Dr Chikku Mathew is the Chief Consultant Psychiatrist at The Companion.  Dr Chikku Mathew   completed her MD PSYCHIATRY from Government Medical College Ernakulam and Government Medical College Kottayam(Senior Residency). She completed her MBBS from Government Medical College Thrissur. She has extensive experience in evaluating and  treating various mental health issuesand will offer a tailor made treatment plan customised to the client's needs.
+                        <br></br>
+                        <br></br>
+                        What makes us different?
+                        <br></br>
+                        <ul className="about-us-points">
+                            <li className="about-us-content">You can communicate directly with DR Chikku Mathew through WhatsApp messages or calls</li>
+                            <li className="about-us-content">We are flexible in terms of in person or teleconsultations</li>
+                            <li className="about-us-content">We offer a very private space  where the consultant offers you her undivided attention</li>
+                        </ul>
                     </Typography>
                 </CardContent>
             </Card>
