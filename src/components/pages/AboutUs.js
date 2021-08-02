@@ -7,7 +7,10 @@ import './AboutUs.css';
 
 const useStyles = makeStyles({
     root: {
-        width: '40rem',
+        'display': 'flex',
+        'justify-content': 'center',
+        'align-items': 'center',
+        'min-height': '20vh',
         margin: '10px'
     }
 });
@@ -17,9 +20,9 @@ export default function AboutUs() {
 
     return (
         <div className="about-us-container">
-            {/* <Card className={classes.root}>
-                <img src='images/chikku.jpeg' loading='lazy'></img>
-            </Card> */}
+            <Card className={classes.root}>
+                <img className="about-us-image" src='images/chikku.jpeg' loading='lazy'></img>
+            </Card>
             <Card className={classes.root}>
                 <CardContent>
                     <Typography className={classes.title} color="textSecondary" gutterBottom>
