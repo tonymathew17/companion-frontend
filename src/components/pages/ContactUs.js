@@ -21,7 +21,6 @@ export default function ContactUs() {
                                 { content: '6238483493', icon: phoneIcon, lineBreak: false }
                             ]}
                             label='Contact Us'
-                            path='/services'
                         />
                         <CardItem
                             type="vertical"
@@ -33,7 +32,6 @@ export default function ContactUs() {
                                 { content: constants.LOCATION.address.line4, lineBreak: false }
                             ]}
                             label='Locate Us'
-                            path='/services'
                         />
                     </ul>
                 </div>

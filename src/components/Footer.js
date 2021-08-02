@@ -32,9 +32,8 @@ function Footer() {
                 <div className='footer-link-wrapper'>
                     <div class='footer-link-items'>
                         <h2>Quick Links</h2>
-                        <Link to='/services'>Services</Link>
                         <Link to='/contact-us'>Contact Us</Link>
-                        <Link to='/testimonials'>Testimonials</Link>
+                        {/* <Link to='/testimonials'>Testimonials</Link> --- Decide if you need a testimonials page --- */}
                         <Link to='/about-us'>About Us</Link>
                     </div>
                 </div>
@@ -52,7 +51,7 @@ function Footer() {
                             Facebook
                         </Link>
                         <Link
-                            to='//facebook.com/drchikkumathew'
+                            to='//linkedin.com/in/dr-chikku-mathew-42a76b210/'
                             target='_blank'>
                             LinkedIn
                         </Link>
