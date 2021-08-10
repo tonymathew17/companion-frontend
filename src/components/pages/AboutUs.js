@@ -21,7 +21,7 @@ export default function AboutUs() {
     return (
         <div className="about-us-container">
             <Card className={classes.root}>
-                <img className="about-us-image" src='images/chikku.jpeg' loading='lazy'></img>
+                <img className="about-us-image" src='images/img-aboutus.jpeg' loading='lazy'></img>
             </Card>
             <Card className={classes.root}>
                 <CardContent>
