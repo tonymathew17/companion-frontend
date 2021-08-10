@@ -6,7 +6,7 @@ import { constants } from '../common/constants';
 
 function HeroSection() {
     return (
-        <div className='hero-container' style={{ backgroundImage: `url(/images/img-home.jpeg)` }}>
+        <div className='hero-container' style={{ backgroundImage: `url(/images/img-home.jpeg)`, backgroundRepeat: 'round' }}>
             <h1>{constants.HOME_PAGE_CAPTION}</h1>
             <p>Book your session now!</p>
             <div className="hero-btns">
