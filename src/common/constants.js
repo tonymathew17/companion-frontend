@@ -13,7 +13,7 @@ const constants = {
         lat: 9.75258256565687,
         lng: 76.38993163016585
     },
-    GOOGLE_API_KEY: ""
+    GOOGLE_API_KEY: "AIzaSyAfbb3tDojQsS5A_ANju_4NtD_T0I_aywg"
 }
 
 export { constants };
