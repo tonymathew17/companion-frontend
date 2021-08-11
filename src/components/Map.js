@@ -5,6 +5,10 @@ import locationIcon from '@iconify/icons-mdi/map-marker';
 import './Map.css';
 import { constants } from '../common/constants';
 
+function openMaps(location) {
+    window.open("https://maps.google.com?q=" + location.lat + "," + location.lng)
+}
+
 function Map({ location, zoomLevel }) {
     return (
         <div className="map">
@@ -15,6 +19,10 @@ function Map({ location, zoomLevel }) {
                     bootstrapURLKeys={{ key: constants.GOOGLE_API_KEY }}
                     defaultCenter={location}
                     defaultZoom={zoomLevel}
+
+                    onClick={() => {
+                        openMaps(location)
+                    }}
                 >
                     <LocationPin
                         lat={location.lat}

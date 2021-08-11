@@ -10,8 +10,8 @@ const constants = {
             line4: 'Vaikom 686141',
         },
         name: 'The Companion Clinic',
-        lat: 9.75258256565687,
-        lng: 76.38993163016585
+        lat: 9.752307660081689,
+        lng: 76.38993833420466
     },
     GOOGLE_API_KEY: ""
 }
