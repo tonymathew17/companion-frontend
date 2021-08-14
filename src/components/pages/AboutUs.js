@@ -2,7 +2,6 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import Typography from '@material-ui/core/Typography';
 import './AboutUs.css';
 
 const useStyles = makeStyles({
@@ -21,7 +20,7 @@ export default function AboutUs() {
     return (
         <div className="about-us-container">
             <Card className={classes.root}>
-                <img className="about-us-image" src='images/img-aboutus.jpeg' loading='lazy'></img>
+                <img onContextMenu={(e) => { e.preventDefault() }} className="about-us-image" src='images/img-aboutus.jpeg' loading='lazy'></img>
             </Card>
             <Card className={classes.root}>
                 <CardContent>
