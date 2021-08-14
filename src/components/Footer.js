@@ -41,7 +41,7 @@ function Footer() {
                     <div class='footer-link-items'>
                         <h2>Social Media</h2>
                         <Link
-                            to='//instagram.com/memoirsofapsychiatrist/'
+                            to='//instagram.com/the_companion_clinic/'
                             target="_blank">
                             Instagram
                         </Link>
@@ -78,7 +78,7 @@ function Footer() {
                         </Link>
                         <Link
                             class='social-icon-link instagram'
-                            to='//instagram.com/memoirsofapsychiatrist/'
+                            to='//instagram.com/the_companion_clinic/'
                             target='_blank'
                             aria-label='Instagram'
                         >

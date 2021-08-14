@@ -12,12 +12,12 @@ function Cards() {
                     <ul className='cards__items'>
                         <CardItem
                             src='images/img-depression.png'
-                            text='Sad mood, Fatigue, Lack of Motivation, Hopelessness'
+                            text='Sad Mood, Fatigue, Lack of Concentration, Suicidal Ideas'
                             label='Depression'
                         />
                         <CardItem
                             src='images/img-bipolardisorder.jpeg'
-                            text='Irritability, Increased Energy, Decreased Need for Sleep'
+                            text='Periods of easy irritability or extreme happiness, overactivity and overtalkativeness'
                             label='Bipolar Disorder'
                         />
                         <CardItem
@@ -29,17 +29,17 @@ function Cards() {
                     <ul className='cards__items'>
                         <CardItem
                             src='images/img-anxiety.jpeg'
-                            text='Nervous, Restless, Tense, Difficulty Concentrating'
+                            text='Undue worries, apprehensions regarding future, lack of concentration'
                             label='Anxiety'
                         />
                         <CardItem
                             src='images/img-panicattack.jpeg'
-                            text='Rapid Heart Rate, Shaking, Sweating, Difficulty Breathing'
+                            text='Medically unexplainable episodes of chest pain, shortness of breath and palpitations'
                             label='Panic Attacks'
                         />
                         <CardItem
                             src='images/img-ocd.png'
-                            text='Repetitive thoughts or urges, Excessive Doubt or Fear'
+                            text='Repetitive irrational thoughts and associated acts'
                             label='OCD'
                         />
                     </ul>
