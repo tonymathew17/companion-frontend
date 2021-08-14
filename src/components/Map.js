@@ -13,10 +13,10 @@ function Map({ location, zoomLevel }) {
     return (
         <div className="map">
             <h2 className="map-h2">Come Visit Our Clinic At</h2>
-
+            {console.log(`GOOGLE_API_KEY: ${process.env[constants.GOOGLE_API_KEY]}`)}
             <div className="google-map">
                 <GoogleMapReact
-                    bootstrapURLKeys={{ key: constants.GOOGLE_API_KEY }}
+                    bootstrapURLKeys={{ key: process.env[constants.GOOGLE_API_KEY] }}
                     defaultCenter={location}
                     defaultZoom={zoomLevel}
 
