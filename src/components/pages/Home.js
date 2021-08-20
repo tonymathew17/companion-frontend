@@ -5,18 +5,6 @@ import Cards from '../Cards';
 import ModalDialog from '../common/Modal';
 
 function Home() {
-    // const [modal, setModal] = useState({
-    //     isModalActive: false,
-    //     type: ""
-    // });
-
-    // const toggleModal = (type) => {
-    //     console.log(`type: ${type}`)
-    //     setModal({
-    //         isModalActive: !modal.isModalActive,
-    //         type: type
-    //     });
-    // };
 
     const [open, setOpen] = useState(false);
     const onCloseModal = () => { setOpen(false) };

@@ -25,7 +25,7 @@ const constants = {
                 content: `This disorder affects about 45 million people worldwide1. It typically consists of both manic and depressive episodes separated by periods of normal mood. Manic episodes involve elevated or irritable mood, over-activity, rapid speech, inflated self-esteem and a decreased need for sleep. People who have manic attacks but do not experience depressive episodes are also classified as having bipolar disorder. Effective treatments are available for the treatment of the acute phase of bipolar disorder and the prevention of relapse. These are medicines that stabilize mood. Psychosocial support is an important component of treatment.`,
             },
             moodDisorders: {
-                header: 'Mood Disorders',
+                header: 'Mood Disorders in Children',
                 content: `A mood disorder is a mental health class that health professionals use to broadly describe all types of depression and bipolar disorders. Children, teens, and adults can have mood disorders. However, children and teens don’t always have the same symptoms as adults. It’s harder to diagnose mood disorders in children because they aren’t always able to express how they feel. Therapy, antidepressants, and support and self-care can help treat mood disorders.`,
             },
             anxiety: {
@@ -40,9 +40,9 @@ const constants = {
                 header: 'Obsessive Compulsive disorder(OCD)',
                 content: `Obsessive-compulsive disorder (OCD) is a disorder in which people have recurring, unwanted thoughts, ideas or sensations (obsessions) that make them feel driven to do something repetitively (compulsions). The repetitive behaviors, such as hand washing, checking on things or cleaning, can significantly interfere with a person’s daily activities and social interactions.`,
             },
-            ptsd: {
-                header: 'Posttraumatic stress disorder(PTSD)',
-                content: `Posttraumatic stress disorder (PTSD) is a psychiatric disorder that may occur in people who have experienced or witnessed a traumatic event such as a natural disaster, a serious accident, a terrorist act, war/combat, or rape or who have been threatened with death, sexual violence or serious injury.`,
+            specificLearningDisorder: {
+                header: 'Specific Learning Disorder',
+                content: `Specific learning disorder (often referred to as learning disorder or learning disability) is a neurodevelopmental disorder that begins during school-age, although may not be recognized until adulthood. Learning disabilities refers to ongoing problems in one of three areas, reading, writing and math, which are foundational to one’s ability to learn.`,
             },
             adhd: {
                 header: 'Attention deficit hyperactivity disorder(ADHD)',

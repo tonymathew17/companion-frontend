@@ -26,8 +26,8 @@ function Cards({ toggleModal }) {
                         />
                         <CardItem
                             src='images/img-mooddisorders.jpeg'
-                            text='Grief, Worthlessness, Feeling Alone'
-                            label='Mood Disorders'
+                            text='Irritability, School Refusal, Grief, Worthlessness'
+                            label='Mood Disorders in Children'
                             onClick={toggleModal}
                             type="moodDisorders"
                         />
@@ -57,11 +57,11 @@ function Cards({ toggleModal }) {
                     </ul>
                     <ul className='cards__items'>
                         <CardItem
-                            src='images/img-ptsd.jpeg'
-                            text='Intrusive Thoughts, Nightmares, Flashbacks'
-                            label='PTSD'
+                            src='images/img-specific_learning_disorder.jpeg'
+                            text='Difficulties in Writing, Reading and Arithmetics'
+                            label='Specific Learning Disorder'
                             onClick={toggleModal}
-                            type="ptsd"
+                            type="specificLearningDisorder"
                         />
                         <CardItem
                             src='images/img-adhd.jpeg'
