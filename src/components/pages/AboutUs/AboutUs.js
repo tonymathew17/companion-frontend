@@ -10,7 +10,11 @@ const useStyles = makeStyles({
         'justify-content': 'center',
         'align-items': 'center',
         'min-height': '20vh',
-        margin: '10px'
+        'margin': '10px',
+        'border': '2px solid var(--clr-grey-special)',
+        'margin-bottom': '1rem',
+        'border-radius': 'var(--radius)',
+        'box-shadow': 'var(--light-shadow)'
     }
 });
 

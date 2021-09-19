@@ -4,8 +4,9 @@ import './App.css';
 import Home from './components/pages/Home';
 import Footer from './components/Footer';
 import ContactUs from "./components/pages/ContactUs";
-import AboutUs from "./components/pages/AboutUs";
+import AboutUs from "./components/pages/AboutUs/AboutUs";
 import ScrollToTop from "./components/common/ScrollToTop";
+import Faq from "./components/pages/faq/faqWrapper";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/contact-us' component={ContactUs} />
           <Route path='/about-us' component={AboutUs} />
+          <Route path='/faq' component={Faq} />
         </Switch>
         <Footer />
       </Router>

@@ -35,6 +35,7 @@ function Footer() {
                         <Link to='/contact-us'>Contact Us</Link>
                         {/* <Link to='/testimonials'>Testimonials</Link> --- Decide if you need a testimonials page --- */}
                         <Link to='/about-us'>About Us</Link>
+                        <Link to='/faq'>FAQ</Link>
                     </div>
                 </div>
                 <div className='footer-link-wrapper'>
