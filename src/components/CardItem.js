@@ -1,8 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { InlineIcon } from '@iconify/react';
 
 function CardItem(props) {
+
+    const onCardClick = cardType => {
+        props.onClick(cardType);
+    }
 
     return (
         <>
@@ -31,7 +34,7 @@ function CardItem(props) {
                 </li>
                 :
                 <li className="cards__item">
-                    <Link className="cards__item__link" to={''}>
+                    <div className="cards__item__link" onClick={() => { onCardClick(props.type) }}>
                         <figure className="cards__item__pic-wrap" data-category={props.label}>
                             <img src={props.src} alt="Travel Image"
                                 className="cards__item__img" />
@@ -39,7 +42,7 @@ function CardItem(props) {
                         <div className="cards__item__info">
                             <h5 className="cards__item__text" >{props.text}</h5>
                         </div>
-                    </Link>
+                    </div>
                 </li>
             }
         </>
