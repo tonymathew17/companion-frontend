@@ -37,7 +37,9 @@ main {
 
 .container h3 {
     line-height: 1.2;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: capitalize;
 }
 
 @media screen and (min-width: 992px) {

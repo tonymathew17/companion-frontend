@@ -7,6 +7,18 @@ h1 {
     text-align: center;
 }
 
+.cards>h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:820px) {
+    .cards>h1 {
+        font-size: 38px;
+        font-weight: 600;
+    }
+}
+
 .cards__container {
     display: flex;
     flex-flow: column;

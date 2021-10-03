@@ -16,6 +16,18 @@ const constants = {
     GOOGLE_API_KEY: "REACT_APP_GM_API_KEY",
     MODAL_CONTENT: {
         HOME_PAGE_CARDS: {
+            schoolPrograms: {
+                header: 'School Programs',
+                content: 'We accept both online and offline modes of payment. Fees is negotiable. Language of communication - English/Malayalam'
+            },
+            collegePrograms: {
+                header: 'College Programs',
+                content: 'We accept both online and offline modes of payment. Fees is negotiable. Language of communication - English/Malayalam'
+            },
+            campaigns: {
+                header: 'Campaigns',
+                content: 'We accept both online and offline modes of payment. Fees is negotiable. Language of communication - English/Malayalam'
+            },
             depression: {
                 header: 'Depression',
                 content: 'Depression is a common illness worldwide, with more than 264 million people affected(1). Depression is different from usual mood fluctuations and short-lived emotional responses to challenges in everyday life. Especially when long-lasting and with moderate or severe intensity, depression may become a serious health condition. It can cause the affected person to suffer greatly and function poorly at work, at school and in the family. At its worst, depression can lead to suicide. Close to 800 000 people die due to suicide every year. Suicide is the second leading cause of death in 15-29-year-olds.',
@@ -80,7 +92,48 @@ const constants = {
             title: 'Are my issues going to go away if I wait?',
             info: `No, It usually doesn't. Consulting a mental health professional is the best option`
         },
-    ]
+    ],
+    INFO_SECTION: {
+        schoolPrograms: {
+            id: "schoolP",
+            lightBg: true,
+            lightText: false,
+            lightTextDesc: false,
+            // topLine: 'College Programs',
+            headline: 'School Programs',
+            description: 'Initiative to raise awareness about mental health issues among adolescence Educational sessions to teachers and parents to sensitise them about mental health issues like specific learning disorder adhd, substance use, depression and anxiety disorders',
+            buttonLabel: 'Learn More',
+            imgStart: '',
+            img: 'images/img-info-school.jpg',
+            alt: 'School Programs'
+        },
+        collegePrograms: {
+            id: "collegeP",
+            lightBg: false,
+            lightText: true,
+            lightTextDesc: true,
+            // topLine: 'College Programs',
+            headline: 'College Programs',
+            description: "Stress, anxiety, depression and substance use are among the rise among college going students. This programme is aimed at offering a helping hand to our young generation",
+            buttonLabel: 'Learn More',
+            imgStart: 'start',
+            img: 'images/img-info-clg.jpg',
+            alt: 'College Programs'
+        },
+        campaigns: {
+            id: "campaigns",
+            lightBg: true,
+            lightText: false,
+            lightTextDesc: false,
+            headline: 'Campaigns',
+            // topLine: 'College Programs',
+            description: "Aimed at sensitising the public about mental health through online/offline educational sessions",
+            buttonLabel: 'Learn More',
+            imgStart: '',
+            img: 'images/img-info-campaign.jpg',
+            alt: 'Campaigns'
+        }
+    }
 }
 
 export { constants };

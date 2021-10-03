@@ -3,6 +3,7 @@ import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import { constants } from '../common/constants';
+import * as Scroll from 'react-scroll';
 
 function Footer() {
     return (
@@ -56,6 +57,33 @@ function Footer() {
                             target='_blank'>
                             LinkedIn
                         </Link>
+                    </div>
+                </div>
+                <div className='footer-link-wrapper'>
+                    <div class='footer-link-items'>
+                        <h2>Initiatives</h2>
+                        <Scroll.Link
+                            style={{ cursor: 'pointer' }}
+                            activeClass="active"
+                            to="schoolP"
+                            spy={true}
+                            smooth="true">
+                            School Programmes
+                        </Scroll.Link>
+                        <Scroll.Link
+                            style={{ cursor: 'pointer' }}
+                            to="collegeP"
+                            spy={true}
+                            smooth="true">
+                            College Programmes
+                        </Scroll.Link>
+                        <Scroll.Link
+                            style={{ cursor: 'pointer' }}
+                            to="campaigns"
+                            spy={true}
+                            smooth="true">
+                            Campaigns
+                        </Scroll.Link>
                     </div>
                 </div>
             </div>
