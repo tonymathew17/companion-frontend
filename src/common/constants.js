@@ -101,7 +101,7 @@ const constants = {
             lightTextDesc: false,
             // topLine: 'College Programs',
             headline: 'School Programs',
-            description: 'Initiative to raise awareness about mental health issues among adolescence Educational sessions to teachers and parents to sensitise them about mental health issues like specific learning disorder adhd, substance use, depression and anxiety disorders',
+            description: 'Initiative to raise awareness about mental health issues among adolescence Educational sessions to teachers and parents to sensitise them about mental health issues like specific learning disorder, Adhd, substance use, depression and anxiety disorders',
             buttonLabel: 'Learn More',
             imgStart: '',
             img: 'images/img-info-school.jpg',
