@@ -18,15 +18,15 @@ const constants = {
         HOME_PAGE_CARDS: {
             schoolPrograms: {
                 header: 'School Programs',
-                content: 'We arrange programs both online and offline. Fees is negotiable. Language of communication - English/Malayalam'
+                content: 'We arrange programs both online and offline. Fee is negotiable. Language of communication - English/Malayalam'
             },
             collegePrograms: {
                 header: 'College Programs',
-                content: 'We arrange programs both online and offline. Fees is negotiable. Language of communication - English/Malayalam'
+                content: 'We arrange programs both online and offline. Fee is negotiable. Language of communication - English/Malayalam'
             },
             campaigns: {
                 header: 'Campaigns',
-                content: 'We arrange programs both online and offline. Fees is negotiable. Language of communication - English/Malayalam'
+                content: 'We arrange programs both online and offline. Fee is negotiable. Language of communication - English/Malayalam'
             },
             depression: {
                 header: 'Depression',
@@ -101,7 +101,7 @@ const constants = {
             lightTextDesc: false,
             // topLine: 'College Programs',
             headline: 'School Programs',
-            description: 'Initiative to raise awareness about mental health issues among adolescence. Educational sessions are offered to teachers, parents and students to sensitise them about mental health issues like specific learning disorder, Adhd, substance use, depression and anxiety disorders',
+            description: 'Initiative to raise awareness about mental health issues among adolescents. Educational sessions are offered to teachers, parents and students to sensitise them about mental health issues like specific learning disorder, Adhd, substance use, depression and anxiety disorders',
             buttonLabel: 'Learn More',
             imgStart: '',
             img: 'images/img-info-school.jpg',

@@ -17,7 +17,7 @@ export default function ContactUs() {
                             src='images/img-telephone.jpg'
                             text={[
                                 { content: 'Dr. Chikku Mathew, MBBS MD(Psychiatry), Consultant Psychiatrist', icon: accountIcon, lineBreak: true },
-                                { content: 'Monday - Friday 3.00PM to 5.00 PM', icon: clockTimeFiveOutline, lineBreak: true },
+                                { content: 'Wednesday 5PM - 7PM and Saturday 2PM - 6PM', icon: clockTimeFiveOutline, lineBreak: true },
                                 { content: '6238483493', icon: phoneIcon, lineBreak: false }
                             ]}
                             label='Contact Us'
